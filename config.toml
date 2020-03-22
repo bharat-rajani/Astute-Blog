@@ -1,0 +1,60 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+publishdir = "docs"
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Bharat's Blog"
+  subtitle    = "Awesome Dev Resource"
+
+  cover       = "img/blog-cover.jpg"
+  description = "SecDevops, Programming and Fun "
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = ""
+  fbName = ""
+  githubName = "bharat-rajani"
+
+  logo = "hugo-logo.png"
+  orgName = "EM"
+  orgWebsite = "https://www.bharatrajani.com"
+  orgDescription = "We are the champions"
+
+  author = "EM"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Bengaluru, India"
+  authorWebsite = "https://www.bharatrajani.com"
+  authorDescription = "Sexy Developer"
+
+  pageNotFoundTitle = "404 - Page not found"
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Go"
+  url = "/tags/golang/"
+  weight = 100
+
+[[menu.main]]
+  name = "Food"
+  url = "/categories/food/"
+  weight = 99
+
+[[menu.main]]
+  name = "About Me"
+  url = "https://bharatrajani.com/"
+  weight = 95
